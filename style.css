@@ -1,3 +1,17 @@
+.h {
+/*
+ * Using monospace fonts seems to help force the browser to display Japanese
+ * kana under the same stylistic font details as the game's font definition.
+ */
+    font-family:  Lucida Console, Courier, monospace;
+    color:  red;
+}
+.k {
+/* Help us tell Katakana apart from Hiragana more quickly using colors. */
+    font-family:  Verdana, Arial, Helvetica, sans-serif;
+    color:  blue;
+}
+
 table, tr, td {
     border-width:  1px;
     border-style:  outset;
@@ -10,9 +24,9 @@ p, li {
     white-space :  pre-wrap;
 }
 
-td.n { /* numeric data */
+td.n, tr.n { /* numeric data */
     text-align  :  right;
 }
-td.t { /* titular data */
+td.t, tr.t { /* titular data */
     text-align  :  center;
 }
