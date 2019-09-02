@@ -2,6 +2,10 @@ table, tr, td {
     border-width:  1px;
     border-style:  outset;
 }
+img {
+    vertical-align:  bottom;
+}
+
 p, li {
     white-space :  pre-wrap;
 }
