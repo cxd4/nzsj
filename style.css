@@ -11,6 +11,10 @@
     font-family:  Verdana, Arial, Helvetica, sans-serif;
     color:  blue;
 }
+.j {
+/* Emphasize kanji (as if it didn't have enough emphasis already...). */
+    color:  green;
+}
 
 table, tr, td {
     border-width:  1px;
